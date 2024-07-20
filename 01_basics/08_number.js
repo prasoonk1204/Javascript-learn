@@ -1,7 +1,7 @@
-const score = 400
+const score = 400  // way to declare number
 console.log(score);
 
-const balance = new Number(100)
+const balance = new Number(100)  // another way to declare number
 console.log(balance);
 
 console.log(balance.toString());  //converting number to string
