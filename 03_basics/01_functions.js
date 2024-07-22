@@ -36,5 +36,46 @@ function loginUserMessage(username = "Sam") {
 }
 
 console.log(loginUserMessage("Pk"))
+console.log(loginUserMessage())
 
 // "Sam" is the default argument if no argument is passed in function call 
+
+
+function calculateCartPrice (...num1) {
+    return num1
+}
+
+console.log(calculateCartPrice(200, 400, 300));
+
+// ... is used in parameter so that all the given arguments are taken
+
+
+// ++++++++++++++ using function with objects ++++++++++++++
+const course = {
+    courseName: "Chai aur Javascript",
+    price: "999",
+    courseInstructor: "Hitesh"
+}
+
+function handleObject(anyObject) {
+    console.log(`Course name is ${anyObject.courseName} and price is ${anyObject.price}`);
+}
+
+handleObject(course)    
+
+handleObject({
+    courseName: "Chai aur Code",
+    price: "199",
+})    // can directly pass an object as well
+
+
+// ++++++++++++ using function with array ++++++++++++
+const newArray = [200, 352, 634, 100]
+
+function returnSecondValue(getArray) {
+    return getArray[1]
+}
+
+console.log(returnSecondValue(newArray));
+
+console.log(returnSecondValue([200, 846, 634, 100]));   // directly passing array
