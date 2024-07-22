@@ -9,7 +9,7 @@ function sayMyName() {
     
 }   // defining a function
 
-// sayMyName()   // executing function
+sayMyName()   // executing function
 
 // function addTwoNumbers (number1, number2) {
 //     console.log(number1 + number2);
@@ -26,7 +26,7 @@ function addTwoNumbers (number1, number2) {
 
 const result = addTwoNumbers(3, 5)
 
-// console.log(`Result = ${result}`);
+console.log(`Result = ${result}`);
 
 // number1, number2 are called parameters -- values while defining function
 // 3, 5 are called arguments -- values while calling the function
