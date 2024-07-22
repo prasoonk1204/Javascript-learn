@@ -59,3 +59,16 @@ console.log(Object.entries(instaUser));
 console.log(instaUser.hasOwnProperty('isLoggedIn'));
 
 // declare an object in inspect >> console, and then call its name.. we will be able to see the properties we can use on objects
+
+// Object De-structuring
+const course = {
+    courseName: "Chai aur Javascript",
+    price: "999",
+    courseInstructor: "Hitesh"
+}
+
+// course.courseInstructor
+
+const {courseInstructor : instructor} = course
+
+console.log(instructor);
