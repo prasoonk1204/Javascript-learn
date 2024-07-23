@@ -1,0 +1,23 @@
+Javascript Execution Context
+
+{} -> Global Execution Context -> its value ois stored in "this"
+
+-> Function Execution Context
+
+-> Eval Execution Context
+
+
+file is executed in different phases:
+    => Memory Creation Phase
+    => Execution Phase
+
+steps in which a code is executed :
+
+1. Code runs in Global Execution -> it is allocated in "this"
+2. Memory Phase : 
+    -> all variables name are collected and undefined is stored in them 
+    -> for functions, there vairable name is collected and the function's defination is stored in it
+3. Execution Phase :
+    -> now the given values are stored in the variables
+    -> when the function is going execute, a new Execution context is created ( new variable environment + execution thread ) => again memory and execution phase are done.. for this function
+    ****** same happens for every function *****
