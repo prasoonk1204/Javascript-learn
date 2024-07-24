@@ -21,3 +21,8 @@ steps in which a code is executed :
     -> now the given values are stored in the variables
     -> when the function is going execute, a new Execution context is created ( new variable environment + execution thread ) => again memory and execution phase are done.. for this function
     ****** same happens for every function *****
+        -> after function execution is completed, the value is returned to Global Execution and the function environment gets deleted
+
+
+Call Stack --> works on LIFO (Last In First Out)  
+    We can see Call stack in browser -> inspect -> Sources -> create new snippet -> see the process    
