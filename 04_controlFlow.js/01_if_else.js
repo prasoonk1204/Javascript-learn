@@ -11,6 +11,8 @@
 
 // }
 
+// comparison : <, >, <=, >=, ==, !=, ===, !==
+
 // Example
 const temp = 41
 if (temp <= 50) {
