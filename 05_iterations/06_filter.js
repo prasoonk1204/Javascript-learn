@@ -7,25 +7,26 @@
 
 // console.log(values); 
 
+
 const myNums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 
-// const newNums = myNums.filter( (num) => num > 4 )
+const newNums1 = myNums.filter( (num) => num > 4 )
 
-// const newNums =myNums.filter( (num) => {
-//     return num > 4
-// } )     // while using scope, return should be given
+const newNums2 =myNums.filter( (num) => {
+    return num > 4
+} )     // while using scope, return should be given
 
 // same by using forEach
-const newNums = []
+const newNums3 = []
 
 myNums.forEach( (num ) => {
     if (num > 4){
-        newNums.push(num)
+        newNums3.push(num)
     }
 })
 
-// console.log(newNums);   // all the above ways will give the same output
+console.log(newNums1);   // all the above ways will give the same output
 
 
 
